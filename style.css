@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    color:white;
+}
+body{
+    background-color:black;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:960px;
+}
+.header{
+    background-image: url("https://scontent.ficn1-1.fna.fbcdn.net/v/t1.0-9/16996333_1414198605278347_2533747137376124870_n.jpg?oh=6a42bdffeedd5b93e1371dc0b153ee85&oe=5953875B");
+    background-position:center;
+    background-size:cover;
+    height:600px;
+    padding-top: 20px;
+}
+#header-text{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+  text-align:center;
+    color:black;
+    font-family:'Times new roman', 'Quicksand';
+    font-size:100px;
+}
+
+h2{
+    color:black;
+    font-family:'Times new roman', 'Quicksand';
+    font-size:60px;
+  text-align:center;
+}
+
+h3{
+    font-size:18px;
+}
+
+h4{
+    text-align:left;
+    font-size:30px;
+    float:left;
+    margin: 0 auto;
+}
+
+
+p{font-size: 18px;
+    
+}
+
+img{
+    width:300px;
+    height:300px;
+    display:block;
+    margin:0px;
+  
+}
+
+.article1{
+    float:left;
+}
+.article2{
+    float:left;
+}
+.article3{
+    float:left;
+}
+.nav{
+   background-color: red;
+   position:fixed;
+    padding-top: 15px;
+   text-align: right;
+   width:100%;
+  height:80px;
+    
+}
+ul{
+    padding: 0;
+    
+}
+
+li{
+    display: inline-block;
+    font-family:'times new roman';
+    font-size:18px;
+    margin:16px 20px;
+}
+
+.section{
+   height:800px;
+   margin-top:100px;
+    
+}
+
+.footer{
+    height:60px;
+    background-color:red;
+    text-align:center;
+}
