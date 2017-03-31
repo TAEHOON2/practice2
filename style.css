@@ -1,5 +1,4 @@
 *{
-    box-sizing: border-box;
     color:white;
 }
 body{
@@ -11,27 +10,24 @@ body{
     width:960px;
     margin:0 auto;
 }
-.header{
+header{
     background-image: url("https://scontent.ficn1-1.fna.fbcdn.net/v/t1.0-9/16996333_1414198605278347_2533747137376124870_n.jpg?oh=6a42bdffeedd5b93e1371dc0b153ee85&oe=5953875B");
     background-position:center;
     background-size:cover;
     height:600px;
     padding-top: 20px;
 }
-#header-text{
-    margin: 0;
-    text-align: center;
-}
+
 
 h1{
   text-align:center;
-    color:black;
+    color:white;
     font-family:'Times new roman', 'Quicksand';
     font-size:100px;
 }
 
 h2{
-    color:black;
+    color:white;
     font-family:'Times new roman', 'Quicksand';
     font-size:60px;
   text-align:center;
@@ -46,6 +42,7 @@ h4{
     font-size:30px;
     float:left;
     margin: 0 auto;
+    padding:0;
 }
 
 
@@ -63,43 +60,46 @@ img{
 
 .article1{
     float:left;
+    margin:10px;
 }
 .article2{
     float:left;
+    margin:10px;
 }
 .article3{
     float:left;
+     margin:10px;
 }
-.nav{
-   background-color: red;
+nav{
+   background-color: crimson;
    position:fixed;
-    padding-top: 15px;
    text-align: right;
    width:100%;
   height:80px;
+  line-height:80px;
     
 }
 ul{
     margin:0 auto;
-    padding: 0;
     float:right;
+    list-style: none;
     
 }
 
 li{
-    display: inline-block;
     font-family:'times new roman';
     font-size:18px;
-   margin:0 auto;
+   margin-right:30px;
+   float:right;
 }
 
-.section{
+section{
    height:800px;
    margin-top:100px;
     
 }
 
-.footer{
+footer{
     height:60px;
     background-color:red;
     text-align:center;
